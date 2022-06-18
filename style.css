@@ -1,0 +1,116 @@
+main{
+    width: 50%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    color: #FFFFFF;
+    
+}
+
+.car-one {
+    background-color: 	#F28C28;
+    height: 80%;
+    max-height: fit-content;
+    padding: 6px;
+}
+
+h2{
+    margin-top: 60%;
+}
+.car-two{
+    background-color:	#5F9EA0;
+    height: 80%;
+    padding:6px;
+    line-height: 1;
+}
+     
+
+.car-three{
+    background-color: #008080;
+    height: 80%;
+    padding: 6px;
+    
+    
+
+}
+
+
+.button {
+    
+        background-color: #FFFFFF; /* White */
+        border: none;
+        color:	#F28C28 ;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-flex;
+        font-size: 16px;
+        justify-content: center;
+        
+      
+      
+      
+}
+
+
+
+.button-one{
+    background-color: #FFFFFF; /* White */
+    border: none;
+    color:	#5F9EA0;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-flex;
+    font-size: 16px;
+    justify-content: center;
+   
+  
+}
+
+
+
+
+.button-two{
+    background-color: #FFFFFF; /* White */
+    border: none;
+    color:	 #008080;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-flex;
+    font-size: 16px;
+    justify-content: center;
+    
+    
+  
+}
+
+.button, .button-one, .button-two{
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 5pc;
+    cursor: grab;
+}
+
+.button:hover {
+    background-color: #F28C28;
+    color: white;
+    border: 2px solid white
+}
+
+.button-one:hover {
+    background-color:#5F9EA0 ;
+    color: white;
+    border: 2px solid white;
+
+}
+
+.button-two:hover {
+    background-color: #008080;
+    color: white;
+    border: 2px solid white
+
+}
