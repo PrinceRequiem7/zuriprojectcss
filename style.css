@@ -114,3 +114,12 @@ h2{
     border: 2px solid white
 
 }
+
+a{
+    background-color: green;
+    border-radius: 2pt;
+    height: fit-content;
+    width: fit-content;
+    color: white;
+    text-decoration: none;
+}
